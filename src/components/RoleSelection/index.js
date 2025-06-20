@@ -9,7 +9,7 @@ const RoleSelection = () => {
       <p>Your trusted partner in medication management. Choose your role to get started with personalized features.</p>
 
       <div className="role-cards">
-        <div className="card">
+        <div className="cardss">
           <img src="https://cdn-icons-png.flaticon.com/512/1946/1946429.png" alt="Patient Icon" className="card-icon" />
           <h2>I'm a Patient</h2>
           <p>Track your medication schedule and maintain your health records</p>
@@ -22,7 +22,7 @@ const RoleSelection = () => {
           <Link to="/patient" className="patient-btn">Continue as Patient</Link>
         </div>
 
-        <div className="card">
+        <div className="cardss">
           <img src="https://cdn-icons-png.flaticon.com/512/1011/1011863.png" alt="Caretaker Icon" className="card-icon" />
           <h2>I'm a Caretaker</h2>
           <p>Monitor and support your loved one's medication adherence</p>

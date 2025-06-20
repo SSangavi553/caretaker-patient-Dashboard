@@ -19,7 +19,9 @@ h1 {
   color: #222;
   margin-bottom: 10px;
 }
-
+li{
+  color: black;
+}
 p {
   color: #555;
   font-size: 16px;
@@ -32,14 +34,15 @@ p {
   gap: 30px;
   flex-wrap: wrap;
   margin-top: 30px;
+  width: 100%;
 }
 
-.card {
+.cardss {
   background: #fff;
   padding: 20px;
   border-radius: 12px;
   box-shadow: 0 4px 12px rgba(0,0,0,0.1);
-  width: 300px;
+  width: 30%;
   transition: transform 0.3s;
 }
 
@@ -99,6 +102,8 @@ li::before {
 
 .patient-btn {
   background-color: #007bff;
+  width: 350px;
+  margin: 4px;
 }
 
 .patient-btn:hover {
@@ -106,6 +111,8 @@ li::before {
 }
 
 .caretaker-btn {
+  margin: 3px;
+   width: 350px;
   background-color: #28a745;
 }
 
